@@ -1,0 +1,9 @@
+Create a Virtual Machine in the resource group along with virtual networks and subnets. Confirm the logins to VM after deploying the infrastructure. 
+provider "aws" {
+  access_key = "ACCESS_KEY_HERE"
+  secret_key = "SECRET_KEY_HERE"
+  region     = "AWS_REGION_HERE"
+}
+
+terraform init
+terraform apply
